@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.serviceContainer {
+    margin-inline: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceContainer .serviceItem {
+    /* margin-bottom: 50px; */
+    background-color: rgb(28, 23, 72);
+    border-radius: 20px;
+    padding: 40px;
+    width: 40%;
+    height: 400px;
+    box-shadow: 2px 2px 10px rgb(29, 200, 222);
+
+}
+.serviceContainer .serviceItem h3 {
+    text-align: center;
+    color: aqua;
+  
+}
+
+.serviceContainer .serviceItem h4{
+    color: aqua;
+    margin-bottom: 10px;
+}
+.serviceContainer .serviceItem p{
+    /* margin: 20px; */
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+
+.note {
+    display: flex;
+    width: 70%;
+    height: auto;
+    background-color: rgb(28, 23, 72);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+
+
+}
+.note img {
+    width: 50px;
+    height: 50px;
+    transform: rotate(-30deg)
+}
+
+
+
+.clinicHoursContainer {
+    margin-top: 30px;
+width: 70%;
+height: 150px;
+}
+
+.clinicHoursContainer h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(28, 23, 72);
+}
+
+.clinicHoursContainer .timeframe {
+    display: flex;
+
+}
+
+
+
+
+.clinicHoursContainer .timeframe h4{
+    border: 1px solid rgb(28, 23, 72);
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(28, 23, 72);
+
+
+}

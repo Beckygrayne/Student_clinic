@@ -1,0 +1,49 @@
+
+h2 {
+    color: rgb(28, 23, 72);
+    text-align: left;
+
+}
+
+p{
+    color: black;
+    text-align: left;
+
+}
+
+
+.value {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.value >div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(28, 23, 72);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgb(20, 209, 212);
+
+
+}
+.value .title {
+    color: aqua;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.value p {
+    text-align: center;
+    color: white;
+}
